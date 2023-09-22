@@ -1,0 +1,85 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+.container-1{ 
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'montserrat' , sans-serif;
+    color: #777777;
+}
+.main-logo{
+    padding-top: 30px;
+    margin-left: 100px;
+}
+.logo{
+    height: 30px;
+    width: 204px;
+}
+ .nav-list{
+    display: inline;
+     margin: 20px;
+ }
+.nav-list img{
+    height: 27px;
+    width: 27px;
+}
+.nav-bar{
+    padding-left: 5%;
+    margin-top: 30px;
+}
+.container-2{
+    background-image: url("1.jpg");
+    height: 750px;
+    padding: 20%;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+.c2-heading{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+button{
+    margin-left: 30%;
+     background-color: black;
+     color: white;
+}
+.container-3{
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.c3-card{
+    height: 400px;
+    width: 500px;
+    background-color: #777777;
+} 
+ 
+.cards{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 40px;
+}
+.c3-card img{
+    width: 100%;
+}
